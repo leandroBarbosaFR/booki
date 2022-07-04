@@ -1,0 +1,579 @@
+.body {
+  margin-left: 75px;
+  margin-right: 75px;
+  font-family: Raleway;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 120px;
+  padding-top: 60px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 85px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.hebergements {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.activites {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.blue-bar {
+  position: absolute;
+  top: -64px;
+  width: calc(100% + 60px);
+  left: -35px;
+  height: 3px;
+  background-color: #0065FC;
+  display: none;
+}
+
+.hebergements:hover .blue-bar,
+.activites:hover .blue-bar {
+  display: block;
+}
+
+.hebergements:hover,
+.activites:hover {
+  color: #0065FC;
+}
+
+.search {
+  font-weight: 700;
+  font-size: 27px;
+  margin-bottom: 5px;
+}
+
+.center {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.location {
+  display: flex;
+  font-weight: 800;
+  font-size: 18px;
+  height: 60px;
+  border: solid 1px #F5F5F5;
+  border-radius: 15px;
+  width: max-content;
+  margin-top: 25px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.fa-location-dot {
+  border-radius: 15px 0 0 15px;
+  background-color: #f2f2f2;
+  height: 60px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marseille {
+  max-width: 280px;
+  padding: 0 15px;
+  align-items: center;
+  display: flex;
+  font-weight: 800;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+
+.search-bar {
+  width: 170px;
+  background-color: #0065FC;
+  border-radius: 0 15px 15px 0;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.fa-magnifying-glass {
+  display: none;
+}
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  font-weight: 700;
+  padding-top: 35px;
+  font-size: 22px;
+}
+
+.economic,
+.famillial,
+.romantic,
+.animal {
+  display: flex;
+  align-items: center;
+  border: solid 2px #EEE;
+  border-radius: 31px;
+  position: relative;
+  height: 54px;
+  transition: transform 0.5s;
+  text-decoration: none;
+  color: black;
+}
+
+.fa-dog,
+.fa-child,
+.fa-heart,
+.fa-money-bill-wave {
+  height: 58px;
+  width: 58px;
+  background-color: #DEEBFF;
+  border-radius: 50%;
+  color: #0065FC;
+  font-size: 22px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -2px;
+}
+
+.economic:hover,
+.family:hover,
+.romantic:hover,
+.animal:hover {
+  transform: scale(1.1);
+}
+
+.text {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 58px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.fa-info {
+  border: 1px solid #eee;
+  border-radius: 11px;
+  width: 22px;
+  height: 22px;
+  color: #0065FC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flat {
+  font-size: 19px;
+  padding-left: 15px;
+}
+
+.first-border {
+  margin-top: 40px;
+  width: 70%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+
+.first-titre {
+  padding-left: 50px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.column {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 34px;
+  padding: 0 30px;
+}
+
+.card {
+  width: calc(100% / 3 - 25px);
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 3px 3px 20px 0px #C7C7C7;
+  transition: transform 0.7s;
+}
+
+.card-img {
+  width: calc(100% - 17px);
+  height: 120px;
+  border-radius: 16px 16px 0 0;
+  padding-left: 8px;
+  padding-top: 7px;
+  object-fit: cover;
+}
+
+.card:hover,
+.hoteldeux:hover {
+  transform: scale(1.10);
+}
+
+.starune {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.etoilebleu {
+  color: #0065FC;
+}
+
+.etoilegrise {
+  color: #dbdbdb
+}
+
+.hotel {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 14px;
+  margin: 5px 0 5px 0;
+  padding-top: 10px;
+  margin: 0px;
+
+}
+
+.description {
+  padding-left: 15px;
+}
+
+.afficher {
+  padding-left: 47px;
+  padding-top: 50px;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.border-two {
+  margin-top: 40px;
+  width: 30%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.border {
+  display: flex;
+  gap: 55px;
+}
+
+.second-title {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: 700;
+  font-size: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-column {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hotel-right {
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  box-shadow: 3px 3px 20px 0px #C7C7C7;
+  transition: transform 0.7s;
+  height: 200px;
+  position: relative;
+}
+
+.imghotel-right {
+  object-fit: cover;
+  border-radius: 16px 0 0 16px;
+  padding: 7px 8px;
+  width: 40%;
+}
+
+.hoteltrois {
+  font-weight: 700;
+  font-size: 19px;
+  margin: 0px;
+}
+
+.widthhotel-right {
+  width: 100%;
+  display: flex;
+}
+
+.paddingquatre {
+  padding: 15px 20px 0;
+}
+
+.star-left {
+  margin-top: 15px;
+  font-size: 12px;
+  position: absolute;
+  display: flex;
+  bottom: 0px;
+}
+
+.third-title {
+  font-weight: 700;
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+.activitesdeux {
+  display: flex;
+  gap: 50px;
+  height: 500px;
+}
+
+.widthactivites {
+  width: 25%;
+}
+
+.borderradius {
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 3px 3px 20px 0px #C7C7C7;
+}
+
+.vieuxport {
+  font-size: 20px;
+  font-weight: 700;
+  margin: auto 20px;
+}
+
+.imgvieuxport,
+.imgpomegues {
+  object-fit: cover;
+  width: 100%;
+  height: calc(100% - 55px)
+}
+
+.grandelement {
+  height: calc(60% - 25px);
+}
+
+.petitelement {
+  height: calc(40% - 25px);
+}
+
+.gapelement {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lienimage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.footer {
+  width: calc(100% - 75px);
+  height: 250px;
+  background-color: #f2f2f2;
+  margin-top: 50px;
+  font-family: Raleway;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 75px;
+}
+
+.titrequatre {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footerun {
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt {
+  font-weight: 500;
+}
+
+.none {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .body {
+      margin-right: 20px;
+      margin-left: 20px;
+  }
+  .header {
+      flex-direction: column;
+      text-align: center;
+      display: flex;
+  }
+  .menu {
+      justify-content: space-around;
+      gap: 0;
+  }
+  .blue-bar {
+      width: 100%;
+      left: 0;
+      top: 30px;
+  }
+  .hebergements,
+  .activites {
+      width: 50%
+  }
+  .rechercher {
+      display: none;
+  }
+  .fa-magnifying-glass {
+      display: flex;
+      width: 60px;
+      background-color: #0065FC;
+      border-radius: 15px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  }
+  .location {
+      max-width: 100%;
+  }
+  .marseille {
+      width: calc(100% - 70px - 60px)
+  }
+  .vieuxport {
+      padding: 10px 0;
+  }
+  .border {
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      gap: 0;
+  }
+  .description {
+      width: 100%;
+  }
+  .bordureune {
+      background-color: white;
+      width: 100%;
+      margin-top: 0;
+  }
+  .column {
+      flex-direction: column;
+  }
+  .card {
+      width: 100%;
+  }
+  .activitesdeux {
+      flex-direction: column;
+      width: 100%;
+      height: initial;
+  }
+  .paddingquatre {
+      padding: 5px;
+  }
+  .widthactivites {
+      width: 100%;
+  }
+  .imgwidth {
+      height: 150px;
+  }
+  .footer {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      padding-left: 10px;
+      text-align: left;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .border {
+      display: block;
+  }
+  .first-border {
+      width: 100%;
+  }
+  .first-titre {
+      padding-top: 20px;
+  }
+  .description {
+      width: 100%;
+  }
+  .activitesdeux {
+      flex-wrap: wrap;
+      height: initial;
+  }
+  .afficher {
+      padding-bottom: 20px;
+  }
+  .widthactivites {
+      width: calc(50% - 25px);
+  }
+  .calanquesorder {
+      order: 1;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1472px) {
+  .body {
+      margin: 30px;
+  }
+  .bordures {
+      gap: 20px;
+  }
+  .description {
+      width: 60%;
+  }
+  .description {
+      width: 40%;
+  }
+  .card {
+      width: calc(100% / 2 - 25px);
+  }
+  .column {
+      padding: 0 10px;
+  }
+  .columndeux {
+      padding: 0 30px;
+  }
+}

@@ -201,7 +201,7 @@
 
 .bordureune {
   margin-top: 40px;
-  width: 70%;
+  width: 80%;
   background-color: #f2f2f2;
   border-radius: 20px;
 }
@@ -222,7 +222,7 @@
 }
 
 .hotelun {
-  width: calc(100% / 3 - 25px);
+  width: calc(100% / 2 - 228px);
   background-color: white;
   border-radius: 16px;
   box-shadow: 3px 3px 20px 0px #C7C7C7;
@@ -291,7 +291,7 @@
 
 .bordures {
   display: flex;
-  gap: 55px;
+  gap: 22px;
 }
 
 .titredeux {
@@ -442,6 +442,7 @@
   color: black;
 }
 
+/*mobile version$*/
 @media screen and (max-width: 768px) {
   .body {
       margin-right: 20px;
@@ -541,7 +542,7 @@
       padding-top: 20px;
   }
   .borduredeux {
-      width: 100%;
+      width: 50%;
   }
   .activitesdeux {
       flex-wrap: wrap;
@@ -563,16 +564,17 @@
       margin: 30px;
   }
   .bordures {
-      gap: 20px;
+      gap: 21px;
   }
   .bordureune {
-      width: 60%;
+      width: 70%;
+      grid-template-columns: 1fr 1fr 1fr;
   }
   .borduredeux {
-      width: 40%;
+      width: 30%;
   }
   .hotelun {
-      width: calc(100% / 2 - 25px);
+    width: calc(100% / 2 - 177px);
   }
   .column {
       padding: 0 10px;

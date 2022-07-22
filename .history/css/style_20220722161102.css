@@ -584,3 +584,8 @@ body {
       order: 1;
   }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1472px) {
+
+
+}

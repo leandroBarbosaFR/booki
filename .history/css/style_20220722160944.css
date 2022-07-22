@@ -584,3 +584,24 @@ body {
       order: 1;
   }
 }
+
+@media screen and (min-width: 992px) and (max-width: 1472px) {
+ 
+  .bordures {
+      gap: 21px;
+  }
+  .bordureune {
+      width: 70%;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  .borduredeux {
+      width: 30%;
+  }
+  .hotelun {
+    width: calc(100% / 2 - 177px);
+  }
+
+  .columndeux {
+      padding: 0 10px;
+  }
+}

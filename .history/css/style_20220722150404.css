@@ -1,13 +1,7 @@
 .body {
+  margin-left: 75px;
+  margin-right: 75px;
   font-family: Raleway;
-}
-
-.h2-filtres {
-  margin-left:10px;
-}
-
-.two-filtres{
-  display: flex;
 }
 
 .header {
@@ -63,20 +57,16 @@
 }
 
 .trouvez {
-  font-weight: 600;
-  font-size: 25px;
+  font-weight: 700;
+  font-size: 27px;
   margin-bottom: 5px;
   margin-top: 40px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .centre {
   font-weight: 400;
   font-size: 20px;
   margin-top: 0;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .location {
@@ -88,8 +78,6 @@
   border-radius: 15px;
   width: max-content;
   margin-top: 25px;
-  margin-left: 10px;
-
 }
 
 .h2 {
@@ -140,7 +128,6 @@
   font-weight: 700;
   padding-top: 35px;
   font-size: 22px;
-  margin-left: 10px;
 }
 
 .economique,
@@ -185,7 +172,7 @@
 .text {
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 700;
   margin-left: 58px;
 }
@@ -215,7 +202,7 @@
 
 .bordureune {
   margin-top: 40px;
-  width: 80%;
+  width: 100%;
   background-color: #f2f2f2;
   border-radius: 20px;
 }
@@ -232,7 +219,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   row-gap: 34px;
-  padding: 0 10px;
+  padding: 0 30px;
 }
 
 .hotelun {
@@ -312,13 +299,13 @@
   padding-left: 40px;
   padding-right: 40px;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 28px;
   display: flex;
   justify-content: space-between;
 }
 
 .columndeux {
-  padding: 0 10px;
+  padding: 0 40px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -374,7 +361,6 @@
   font-weight: 700;
   font-size: 28px;
   padding-top: 20px;
-  margin-left: 10px;
 }
 
 .activitesdeux {
@@ -462,10 +448,9 @@
 
 /*mobile version$*/
 @media screen and (max-width: 768px) {
-
-  body {
-    width: 100%;
-    margin: 0 auto;
+  .body {
+      margin-right: 20px;
+      margin-left: 20px;
   }
   .header {
       flex-direction: column;
@@ -515,9 +500,7 @@
   }
   .borduredeux {
       width: 100%;
-      border-radius: none;
   }
-
   .bordureune {
       background-color: white;
       width: 100%;
@@ -533,15 +516,12 @@
       flex-direction: column;
       width: 100%;
       height: initial;
-      gap: 20px;
   }
   .paddingquatre {
       padding: 5px;
   }
   .widthactivites {
-      width: 95%;
-      margin: 0 auto;
-      gap: 20px;
+      width: 100%;
   }
   .imgwidth {
       height: 150px;
@@ -567,12 +547,10 @@
   }
   .borduredeux {
       width: 50%;
-      border-radius: none;
   }
   .activitesdeux {
       flex-wrap: wrap;
       height: initial;
-
   }
   .afficher {
       padding-bottom: 20px;
@@ -602,8 +580,10 @@
   .hotelun {
     width: calc(100% / 2 - 177px);
   }
-
-  .columndeux {
+  .column {
       padding: 0 10px;
+  }
+  .columndeux {
+      padding: 0 30px;
   }
 }

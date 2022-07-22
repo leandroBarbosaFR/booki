@@ -2,14 +2,6 @@
   font-family: Raleway;
 }
 
-.h2-filtres {
-  margin-left:10px;
-}
-
-.two-filtres{
-  display: flex;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -185,7 +177,7 @@
 .text {
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 700;
   margin-left: 58px;
 }
@@ -374,7 +366,6 @@
   font-weight: 700;
   font-size: 28px;
   padding-top: 20px;
-  margin-left: 10px;
 }
 
 .activitesdeux {
@@ -533,7 +524,6 @@
       flex-direction: column;
       width: 100%;
       height: initial;
-      gap: 20px;
   }
   .paddingquatre {
       padding: 5px;
@@ -541,7 +531,6 @@
   .widthactivites {
       width: 95%;
       margin: 0 auto;
-      gap: 20px;
   }
   .imgwidth {
       height: 150px;
@@ -572,7 +561,7 @@
   .activitesdeux {
       flex-wrap: wrap;
       height: initial;
-
+      gap: 50
   }
   .afficher {
       padding-bottom: 20px;

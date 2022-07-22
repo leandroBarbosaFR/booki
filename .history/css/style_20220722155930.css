@@ -2,13 +2,7 @@
   font-family: Raleway;
 }
 
-.h2-filtres {
-  margin-left:10px;
-}
-
-.two-filtres{
-  display: flex;
-}
+.h2-filtres
 
 .header {
   display: flex;
@@ -185,7 +179,7 @@
 .text {
   padding-left: 20px;
   padding-right: 20px;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 700;
   margin-left: 58px;
 }
